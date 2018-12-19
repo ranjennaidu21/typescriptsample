@@ -1,0 +1,22 @@
+1) npm install typescript@2.4.2
+
+2) create directory and add mainjs.ts file
+
+3) now add some javascript code and perform this code in the directory to compile ts code into javascript code that can read y
+browser
+>tsc mainjs.ts
+
+4) once compile you can see main.js file generated
+all javascript code is also a valid typscript code. 
+
+5) you dont have to manually do this in angular. when do ng serve , 
+angular automatically compile all typscript code into javascript code
+
+6) now we can try to run the javascript code using node command:
+> node mainjs.js , can see the console.log printed in vs console.
+
+7) the typescript will still compile to javascript es5 even have compilation issues.
+refer maints.ts
+
+8) we can combile multiple commands
+tsc main.ts && node main.js
