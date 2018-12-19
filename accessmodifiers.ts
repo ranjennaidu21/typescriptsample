@@ -1,5 +1,5 @@
 //if need to put implementation use class
-class Point2{
+class PointObj{
     //you can use private access modifier to avoid setting value directly as below
     
 
@@ -18,14 +18,14 @@ class Point2{
         console.log('X: '+this.x+ ',Y: '+this.y);
     }
 
-    getDistance(another:Point2){
+    getDistance(another:PointObj){
         //..
     }
 }
 
 
-let point3 = new Point2(5,7);
-point3.draw();
+let pointing2 = new PointObj(5,7);
+pointing2.draw();
 
 
 
